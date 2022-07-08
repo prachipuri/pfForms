@@ -1,0 +1,87 @@
+.box{
+  height: 600px;
+  box-shadow: 4px 3px 4px 0 rgba(204,204,204,0.5);
+  padding: 10px;
+}
+
+.gn{
+  text-align: left;
+  background-color: #f0f5f5;
+}
+
+.table1,td,th{
+  /* border: 1px solid #ddd; */
+  border: 1px solid #ccc;
+  text-align: left;
+  color: #000;
+  font-weight: 800;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  line-height: 17px;
+}
+td,tr{
+  height: 40px;
+}
+
+th{
+  height: 30px;
+  text-align: center;
+  
+}
+.table1{
+  border-collapse: collapse;
+  width: 100%;
+}
+.table2 
+{
+  border-collapse: collapse;
+  width: 50%;
+  border: 1px solid #ccc;
+  text-align: left;
+  color: #000;
+  font-weight: 800;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  line-height: 17px;
+}
+
+.table2 th{
+  padding: 10px;
+}
+
+.doc{
+  width: 80%;
+  text-align: left; 
+}
+
+.save, .continue{
+  background-color: #31B0D5;
+  color: white;
+  padding: 10px 20px;
+  border-color: #46b8da;
+  margin-bottom: 30px;
+}
+
+.exit{
+  background-color: transparent;
+  color: #31B0D5;
+  padding: 10px 20px;
+  border-color: #46b8da;   
+  margin-bottom: 30px; 
+}
+
+#box2{
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+ }
+
+#box3{
+  position: fixed;
+  bottom: -4px;
+  left: 10px;  
+}
